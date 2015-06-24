@@ -1,6 +1,7 @@
+
 cluster.name: guangxian_game
-node.name: node_249
-node.master: false
+node.name: node_107
+node.master: true
 node.data: true
 
 index.number_of_shards: 3
@@ -8,7 +9,6 @@ index.number_of_replicas: 1
 index.cache.field.type: soft
 index.cache.field.max_size: 50000
 index.cache.field.expire: 10m
-
 
 
 transport.tcp.compress: true
@@ -26,6 +26,3 @@ index.store.compress.stored: true
 
 discovery.zen.ping.multicast.enabled: false
 discovery.zen.ping.unicast.hosts: ["10.0.29.152","10.0.29.107"]
-
-
-

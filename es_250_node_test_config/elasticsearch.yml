@@ -25,4 +25,4 @@ index.translog.flush_threshold_ops: 50000
 index.store.compress.stored: true
 
 discovery.zen.ping.multicast.enabled: false
-discovery.zen.ping.unicast.hosts: ["10.0.29.152"]
+discovery.zen.ping.unicast.hosts: ["10.0.29.152","10.0.29.107"]
